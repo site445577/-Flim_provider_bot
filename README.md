@@ -78,7 +78,7 @@
 
 <a href="https://youtu.be/uv0WHxwHwfo"><img src="https://img.shields.io/badge/watch%20Heroku%20Tutorial-red.svg?logo=Youtube"></a>                
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrMKN/PROFESSOR-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/teraboxmoviebot/-Flim_provider_bot)
 </details>
 
 <details>
@@ -97,8 +97,8 @@ logs - to get the rescent errors
 stats - to get status of files in db.
 filter - add manual filters
 filters - view filters
-connect - connect to PM.
-disconnect - disconnect from PM
+connect - connect to dM.
+disconnect - disconnect from dM
 connections - check all connections
 del - delete a filter
 delall - delete all filters
@@ -115,24 +115,12 @@ enable - re-enable chat.
 ban_user  - to ban a user.
 unban_user  - to unban a user.
 channel - to get list of total connected channels
-broadcast - to broadcast a message to all Eva Maria users
+
 ```
 
 </details>
 
 ## TELAGRAM SUPPORT 
 
-* [![MKN BOTZ](https://img.shields.io/static/v1?label=MKN&message=BOTZ&color=critical)](https://t.me/mkn_bots_updates)
 
-## Credit 💞
-
-* [![TEAM EVA-MARIA](https://img.shields.io/static/v1?label=TEAM&message=EVA-MARIA&color=yellow)](https://t.me/TeamEvamaria)
-
-* [![BASE REPO](https://img.shields.io/static/v1?label=BASE&message=REPO&color=green)](https://t.me/TeamEvamaria)
-
-
-## Disclaimer
-[![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/MrMKN/PROFESSOR-BOT/blob/main/LICENSE)
-Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
