@@ -26,6 +26,7 @@ RUN pip install --upgrade pip
 
 RUN pip install --upgrade numpy
 
+pip install --upgrade --force-reinstall numpy
 
 Flask==2.2.2
 numpy==1.21.0
