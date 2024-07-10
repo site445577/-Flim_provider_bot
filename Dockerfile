@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y \
 # Copy requirements file and install dependencies
 COPY requirements.txt .
 RUN pip install --upgrade pip
+RUN pip install --upgrade numpy
+RUN pip install --upgrade --force-reinstall numpy
 RUN pip install numpy==1.21.0 --only-binary :all:  # Ensure using pre-built wheels for numpy
 RUN pip install -r requirements.txt
 
@@ -22,11 +24,11 @@ WORKDIR /app
 # Command to run the application
 CMD ["python", "bot.py"]
 
-RUN pip install --upgrade pip
 
-RUN pip install --upgrade numpy
 
-pip install --upgrade --force-reinstall numpy
+
+
+
 
 Flask==2.2.2
 numpy==1.21.0
