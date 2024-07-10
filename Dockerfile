@@ -22,7 +22,7 @@ WORKDIR /app
 # Command to run the application
 CMD ["python", "bot.py"]
 
-
+RUN pip install --upgrade pip
 
 Flask==2.2.2
 numpy==1.21.0
