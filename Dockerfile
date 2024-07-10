@@ -24,6 +24,9 @@ CMD ["python", "bot.py"]
 
 RUN pip install --upgrade pip
 
+RUN pip install --upgrade numpy
+
+
 Flask==2.2.2
 numpy==1.21.0
 pandas==1.3.0
