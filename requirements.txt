@@ -34,7 +34,7 @@ ujson
 wget
 pytz
 
-pip install --upgrade --force-reinstall numpy
+
 
 
 
