@@ -24,12 +24,6 @@ WORKDIR /app
 # Command to run the application
 CMD ["python", "bot.py"]
 
-
-
-
-
-
-
 Flask==2.2.2
 numpy==1.21.0
 pandas==1.3.0
