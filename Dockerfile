@@ -24,4 +24,11 @@ CMD ["python", "bot.py"]
 
 
 
+Flask==2.2.2
+numpy==1.21.0
+pandas==1.3.0
+scipy==1.7.0
+
+
+
 
