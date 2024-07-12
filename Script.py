@@ -222,6 +222,7 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
   
     IMDB_TEMPLATE = """<b>Qᴜᴇʀʏ: {query}</b>
 
+
 <b>🎥 Title</b>: <a href={url}>{title}</a>
 <b>🎭 Genres</b>: {genres} 
 <b>📆 Year</b>: <a href= {url}/releaseinfo>{year}</a> 
