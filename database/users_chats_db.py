@@ -9,6 +9,17 @@ class Database:
         self.col = self.db.users
         self.grp = self.db.groups
 
+from pymongo import MongoClient
+
+# Replace with your MongoDB connection details
+client = MongoClient('mongodb://localhost:27017/')
+db_name = "my_database"  # Replace with your desired database name
+
+# Access the database
+db = client[db_name]
+
+# Now you can perform operations on the 'my_database' database
+
 
     def new_user(self, id, name):
         return dict(
